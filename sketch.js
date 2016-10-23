@@ -19,7 +19,7 @@ function setup() {
   dawg = new Shaperace(500, 400, 12);
 
   pineapple = new Shaperace(500, 400, 11);
-  pineapple1 = new Shaperace(500, 400, 10);
+  pineapple1 = new Shaperace(500, 400, 9);
 }
 
 function draw() {
