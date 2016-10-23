@@ -1,7 +1,12 @@
 var pug;
 var papple;
 
+var music;
+
 function preload() {
+
+  music = loadSound('music/music.mp3');
+
   imageMode(CENTER);
   pug = loadImage('imgs/pug.png');
   papple = loadImage('imgs/papple.png');
@@ -66,7 +71,7 @@ this.display1 = function() {
   if (this.y > 700 || this.y < 0) {
     fill(0, 200, 0);
     textSize(100);
-    text("PAPPLE WINS!!!", 100, 200);
+    text("PANAPPLE WINS!!!", 90, 200);
   }
 }
 
