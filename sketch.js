@@ -14,6 +14,7 @@ function preload() {
 
 function setup() {
 
+  music.play();
   createCanvas(1150, 700);
 
   dawg = new Shaperace(500, 400, 12);
