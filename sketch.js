@@ -87,7 +87,7 @@ this.display2 = function() {
 }
 
 this.interact = function() {
-    if (mouseX > 400) {
+    if (mouseX > 575) {
       this.x += 2
     } else {
       this.x -= 2
